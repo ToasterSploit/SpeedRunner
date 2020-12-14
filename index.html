@@ -1,6 +1,5 @@
 <html>
     <head>
-        <title>Speed Runner</title>
         <style>
             body {
                 background-color: rgb(50, 50, 50);
@@ -10,6 +9,7 @@
                 position: absolute;
                 left: 50%;
                 top: 50%;
+                width: calc(200px + 5%);
                 transform: translate(-50%, -50%);
             }
 
@@ -18,6 +18,8 @@
                 position: absolute;
                 transform: translate(-50%, 0);
                 color: white;
+                text-align: center;
+                width: 100%;
                 left: 50%;
                 top: 5%;
 
@@ -25,7 +27,7 @@
         </style>
     </head>
     <body>
-        <h1 id="points">0 points</h1>
+        <h1 id="points">0/10 points  00:00:00 time spend</h1>
         <canvas width="400" height="400"></canvas>
         <script src="index.js"></script>
     </body>
